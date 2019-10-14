@@ -3,7 +3,7 @@
 
 Tienes 2 opciones
 
-Para configurar tanto la información de usuario los alias
+Para configurar tanto la información de usuario y los alias
 ```shell
     ./auto-config.sh "Su Nombre" "Su Correo"
 ```
@@ -26,3 +26,9 @@ Si desea modificar lo alias debe editar el archivo auto-config.sh
 * git config --global alias.rh 'reset --hard'
 * git config --global alias.lola 'log --graph --decorate --pretty=oneline --abbrev-commit --all'
 * git config --global alias.lol 'log --graph --decorate --pretty=oneline --abbrev-commit'
+
+Si desea verificar la información utilice
+
+```shell
+    git config --global -l
+```
