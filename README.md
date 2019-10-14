@@ -5,12 +5,12 @@ Tienes 2 opciones
 
 Para configurar tanto la información de usuario y los alias
 ```shell
-    ./auto-config.sh "Su Nombre" "Su Correo"
+    sh auto-config.sh "Su Nombre" "Su Correo"
 ```
 
 Para configurar solo los alias
 ```shell
-    ./auto-config.sh
+    sh auto-config.sh
 ```
 
 Si desea modificar lo alias debe editar el archivo auto-config.sh
