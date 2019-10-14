@@ -1,7 +1,7 @@
 # git-aliases
 ## Auto Configuration
 
-You have 2 options.
+Tienes 2 opciones
 
 Para configurar tanto la información de usuario los alias
 ```shell
