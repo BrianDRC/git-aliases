@@ -24,6 +24,7 @@ Si desea modificar lo alias debe editar el archivo auto-config.sh
 * git config --global alias.db 'checkout -D'
 * git config --global alias.pu 'push -u'
 * git config --global alias.rh 'reset --hard'
+* git config --global alias.rt 'rm -r --cached .'
 * git config --global alias.lola 'log --graph --decorate --pretty=oneline --abbrev-commit --all'
 * git config --global alias.lol 'log --graph --decorate --pretty=oneline --abbrev-commit'
 
