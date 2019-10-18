@@ -15,6 +15,7 @@ git config --global alias.pu 'push -u'
 git config --global alias.rh 'reset --hard'
 git config --global alias.lola 'log --graph --decorate --pretty=oneline --abbrev-commit --all'
 git config --global alias.lol 'log --graph --decorate --pretty=oneline --abbrev-commit'
+git config --global alias.rt 'rm -r --cached .'
 git config --global credential.helper cache
 
 if [ ! -z "$name" ] && [ ! -z "$email" ]; then
