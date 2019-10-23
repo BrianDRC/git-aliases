@@ -10,7 +10,7 @@ git config --global alias.st status
 git config --global alias.br branch
 git config --global alias.cim 'commit -m'
 git config --global alias.nb 'checkout -b'
-git config --global alias.db 'checkout -D'
+git config --global alias.db 'branch -D'
 git config --global alias.pu 'push -u'
 git config --global alias.rh 'reset --hard'
 git config --global alias.lola "log --graph --pretty='%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --all"
